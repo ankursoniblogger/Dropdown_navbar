@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+body {
+    background-color: #00ffff;
+    min-height: 100vh;
+}
+
+.menu {
+    margin: 30px 100px;
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    height: 50px;
+    background: white;
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+}
+
+ul li a:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(41, 41, 247);
+}
+
+ul li ul li {
+    display: none;
+
+}
+
+ul li:hover ul li {
+    display: block;
+    opacity: 0.9;
+}
